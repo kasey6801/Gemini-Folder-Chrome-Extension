@@ -2,7 +2,7 @@
 
 Organise your Google Gemini conversations into folders directly inside the Gemini website. Keep related chats together, and find them quickly. Please note that this extension is not distributed via the Chrome store. 
 
-> ⚠️ As an unregistered extension it must be installed while in chrome developer mode or it must be registered within your organization if you are using a managed device.
+> ⚠️ This extension is unregistered. It must be installed while in Chrome browser developer mode. If you are using a managed device this extension must be registered by your organization in order to be installed.
 
 ---
 
