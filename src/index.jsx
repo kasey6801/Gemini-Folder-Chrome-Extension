@@ -11,11 +11,6 @@ function init() {
   sidebar.appendChild(root);
   document.body.appendChild(sidebar);
 
-  const fontLink = document.createElement('link');
-  fontLink.rel = 'stylesheet';
-  fontLink.href = 'https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap';
-  document.head.appendChild(fontLink);
-
   const toggle = document.createElement('button');
   toggle.id = 'toggle-sidebar';
   toggle.textContent = '☰';
