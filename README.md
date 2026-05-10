@@ -9,7 +9,7 @@ Organise your Google Gemini conversations into folders while using the Gemini we
 ## Requirements
 
 - **Google Chrome** browser (desktop)
-- **Developer Mode** must be enabled in Chrome's Extensions settings
+- **Developer Mode** or **extension registration** for managed devices
 
 > ⚠️ Developer Mode may be restricted on managed devices (e.g. work or school computers). If you cannot enable it, the extension cannot be installed unless allowed by your organization.
 
