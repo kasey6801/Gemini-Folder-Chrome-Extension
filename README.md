@@ -81,7 +81,7 @@ No coding or build tools required.
 ### Data
 - **Export** — saves all your folders and chats to a `.json` file on your computer
 - **Import** — restores folders from a previously exported file
-- All data is stored **locally on your device only** — nothing is sent to any server
+- All data is stored **on your device only** — nothing is sent to any server
 
 ---
 
