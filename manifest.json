@@ -20,7 +20,7 @@
       "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline';",
       "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self'"
    },
-   "description": "Chrome plugin to add folder functionality to Google Gemini",
+   "description": "Chrome extension to add folder functionality to Google Gemini",
    "host_permissions": [ "https://*.gemini.google.com/*" ],
    "icons": {
       "128": "icons/icon128.png",
