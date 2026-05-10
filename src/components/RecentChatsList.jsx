@@ -7,7 +7,28 @@ export default function RecentChatsList() {
   const [expanded, setExpanded] = useState(true);
 
   useEffect(() => {
-    setChats(getGeminiChats());
+    function refresh() {
+      setChats(getGeminiChats());
+    }
+
+    refresh();
+
+    // Re-scan when Gemini navigates to a new chat (SPA URL change)
+    let lastUrl = window.location.href;
+    const urlInterval = setInterval(() => {
+      if (window.location.href !== lastUrl) {
+        lastUrl = window.location.href;
+        refresh();
+      }
+    }, 1000);
+
+    // Periodic rescan for sidebar updates that don't involve navigation
+    const refreshInterval = setInterval(refresh, 15000);
+
+    return () => {
+      clearInterval(urlInterval);
+      clearInterval(refreshInterval);
+    };
   }, []);
 
   function handleDragStart(e, chat) {
