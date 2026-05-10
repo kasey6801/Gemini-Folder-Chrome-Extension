@@ -91,4 +91,4 @@ Click the **☰** button on the right side of the Gemini page to open or close t
 
 ## Privacy
 
-This extension does not collect, transmit, or store any data outside of your own browser. See the `LICENSE` and `NOTICE` files for open-source attribution.
+This extension does not collect, transmit, or store any data outside of your browser. See the `LICENSE` and `NOTICE` files for open-source attribution.
