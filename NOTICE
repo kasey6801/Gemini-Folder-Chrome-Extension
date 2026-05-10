@@ -1,0 +1,44 @@
+Gemini Folders
+Copyright (c) 2026 Gemini Folders Contributors
+
+This product includes software developed by third parties.
+The following open-source packages are bundled in this distribution:
+
+-------------------------------------------------------------------------------
+
+React
+Copyright (c) Facebook, Inc. and its affiliates.
+License: MIT — https://github.com/facebook/react/blob/main/LICENSE
+
+React DOM
+Copyright (c) Facebook, Inc. and its affiliates.
+License: MIT — https://github.com/facebook/react/blob/main/LICENSE
+
+Ant Design (antd)
+Copyright (c) 2015-present Ant UED, https://xtech.antfin.com/
+License: MIT — https://github.com/ant-design/ant-design/blob/master/LICENSE
+
+@ant-design/icons
+Copyright (c) 2018-present Ant UED, https://xtech.antfin.com/
+License: MIT — https://github.com/ant-design/icons/blob/master/LICENSE
+
+@ant-design/colors
+Copyright (c) 2018-present Ant UED
+License: MIT — https://github.com/ant-design/colors/blob/master/LICENSE
+
+@ant-design/fast-color
+Copyright (c) Ant UED
+License: MIT — https://github.com/ant-design/fast-color/blob/master/LICENSE
+
+classnames
+Copyright (c) 2018 Jed Watson
+License: MIT — https://github.com/JedWatson/classnames/blob/master/LICENSE
+
+regenerator-runtime
+Copyright (c) 2014-present, Facebook, Inc.
+License: MIT — https://github.com/babel/babel/blob/main/packages/babel-helpers/LICENSE
+
+-------------------------------------------------------------------------------
+
+Full license texts for each package are available in the node_modules directory
+or at the URLs listed above.

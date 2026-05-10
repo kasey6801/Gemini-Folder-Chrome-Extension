@@ -1,0 +1,38 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "icons/icon128.png",
+         "16": "icons/icon16.png",
+         "48": "icons/icon48.png"
+      },
+      "default_popup": "public/popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "css": [ "content.css" ],
+      "js": [ "bundle.js" ],
+      "matches": [ "https://*.gemini.google.com/*" ],
+      "run_at": "document_idle"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self'; style-src 'self' 'unsafe-inline';",
+      "sandbox": "sandbox allow-scripts allow-forms allow-popups allow-modals; script-src 'self' 'unsafe-inline' 'unsafe-eval'; child-src 'self'"
+   },
+   "description": "Chrome plugin to add folder functionality to Google Gemini",
+   "host_permissions": [ "https://*.gemini.google.com/*" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "manifest_version": 3,
+   "name": "Google Gemini Folders",
+   "permissions": [ "storage", "unlimitedStorage", "activeTab" ],
+   "version": "0.42.1",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.google.com/*" ],
+      "resources": [ "assets/*", "content.css" ]
+   } ]
+}

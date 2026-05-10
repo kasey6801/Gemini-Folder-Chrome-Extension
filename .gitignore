@@ -1,0 +1,19 @@
+# Archive — local reference only, never published
+_archive/
+
+# Release build — distributed manually, not via GitHub
+RELEASE/
+
+# Claude Code project instructions — local only
+CLAUDE.md
+
+# Dependencies
+node_modules/
+
+# Build artifacts
+bundle.js.map
+oauth.js.map
+bundle.js.LICENSE.txt
+
+# macOS
+.DS_Store

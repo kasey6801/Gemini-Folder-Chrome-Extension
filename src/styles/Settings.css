@@ -1,0 +1,31 @@
+.settings-view {
+  padding: 16px;
+}
+
+.settings-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 12px;
+  color: var(--muted-text-color);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.settings-contents {
+  display: flex;
+  flex-direction: column;
+}
+
+.settings-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+  font-size: 14px;
+  color: var(--text-color);
+}
+
+.settings-row:last-child {
+  border-bottom: none;
+}

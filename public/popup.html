@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            width: 260px;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+            background: #1a1a1a;
+            color: #e0e0e0;
+            margin: 0;
+        }
+        h2 {
+            margin: 0 0 4px;
+            font-size: 16px;
+            color: #fff;
+            text-align: center;
+        }
+        .subtitle {
+            font-size: 12px;
+            color: #a0a0a0;
+            text-align: center;
+            margin: 0 0 16px;
+        }
+        .btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: #333;
+            color: #e0e0e0;
+            border: 1px solid #444;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 14px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .btn:hover { background: #444; }
+        #importFile { display: none; }
+        #statusMessage {
+            margin-top: 8px;
+            font-size: 12px;
+            color: #a0a0a0;
+            text-align: center;
+            min-height: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Gemini Folders</h2>
+    <p class="subtitle">Click ☰ on the right side of Gemini to open the sidebar.</p>
+
+    <button class="btn" id="exportBtn">⬇ Export Data (JSON)</button>
+    <label class="btn" for="importFile">⬆ Import Data (JSON)</label>
+    <input type="file" id="importFile" accept=".json">
+
+    <p id="statusMessage"></p>
+    <script src="popup.js"></script>
+</body>
+</html>
