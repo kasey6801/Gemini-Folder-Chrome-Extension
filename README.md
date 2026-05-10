@@ -11,7 +11,7 @@ Organise your Google Gemini conversations into folders directly inside the Gemin
 
 > ⚠️ Developer Mode may be restricted on managed devices (e.g. work or school computers). If you cannot enable it, the extension cannot be installed.
 
-<img width="1092" height="1108" alt="2026-05-09 22 35 51" src="https://github.com/user-attachments/assets/b943aa35-714c-4df2-8454-c19ffe3b083f" />
+<img width="546" height="554" alt="2026-05-09 22 35 51" src="https://github.com/user-attachments/assets/b943aa35-714c-4df2-8454-c19ffe3b083f" />
 
 ---
 
