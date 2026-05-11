@@ -54,11 +54,6 @@
     overflow: hidden;
   }
 
-  #toggle-button-sidebar {
-    background-color: var(--small-folder-list-background);
-    color: var(--text-color);
-  }
-  
   #toggle-sidebar {
     position: fixed;
     top: 72px;
@@ -88,23 +83,3 @@
     transition: transform 0.2s; /* Smooth transition for transform */
   }
 
-  #sidebar-text {
-    margin-top: 20px; /* Add some margin to the top */
-    font-size: 18px; /* Set font size */
-    color: white; /* Set text color */
-  }
-
-  #folder-container{
-    border: 5px rgba(74, 72, 72, 0.638) solid;
-    border-radius: 20%;
-    box-shadow: #282a2c;
-    display:block;
-    height: 60px;
-    width :155px;
-  }
-
-  #folder-heading{
-    font-size: 15px;
-    color: #ffffff;
-    margin-left: 20px;
-  }
